@@ -1,0 +1,42 @@
+services:
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    command: sh -c "uvicorn app:app --host 0.0.0.0 --port 8000 --forwarded-allow-ips='*' --proxy-headers --reload"
+    restart: always
+    networks:
+      - my_network
+
+  client:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    depends_on:
+      - api
+    networks:
+      - my_network
+
+  nginx-proxy-manager:
+    image: "jc21/nginx-proxy-manager:latest"
+    restart: always
+    ports:
+      - "80:80"
+      - "81:81"
+      - "443:443"
+    volumes:
+      - "./nginx-proxy-manager:/data"
+      - "./letsencrypt:/etc/letsencrypt"
+      # - "./_hsts_map.conf:/app/templates/_hsts_map.conf"
+    depends_on:
+      - api
+      - client
+    networks:
+      - my_network
+  
+
+networks:
+  my_network:
+
+volumes:
+  nginx-proxy-manager:
