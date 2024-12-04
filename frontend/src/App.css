@@ -1397,7 +1397,13 @@ button {
 .footer_p div {
     margin: 13px;
 }
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+    .otzyvy_d img {
+        width: 39px;
+        height: 39px;
 
+    }
+}
 @media screen and (min-width: 1440px) and (max-width: 1919px) {
     .faq_main.bot{
         margin: 65px 120px 93px 120px !important;
@@ -1676,11 +1682,7 @@ button {
     }
 
 
-    .otzyvy_d img {
-        width: 39px;
-        height: 39px;
 
-    }
 
     .name_pers {
         font-size: 15px;

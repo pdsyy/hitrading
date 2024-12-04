@@ -973,7 +973,7 @@
     }
 
     .about_perev_challenge img {
-        margin-right: 0;
+        margin-left: auto;
         width: 530px;
         height: 311px;
     }
