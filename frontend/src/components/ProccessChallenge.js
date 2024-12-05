@@ -56,7 +56,7 @@ const ProccessChallenge = () => {
         <AnimatedBlock><a className = "inv_href" href = "https://boldfund.io" target = "_blank"></a><img src={f_bold} alt="" loading = "lazy"/></AnimatedBlock>
         <AnimatedBlock><img src={wfb1} alt="" loading = "lazy"/></AnimatedBlock>
         <AnimatedBlock><img src={wfb2} alt="" loading = "lazy"/></AnimatedBlock>
-        <AnimatedBlock classN = "for_tablet_mobile o"><img src={newMin} alt="" loading = "lazy"/></AnimatedBlock>
+        <AnimatedBlock classN = "for_tablet_mobile o fourth_tablet"><img src={newMin} alt="" loading = "lazy"/></AnimatedBlock>
     </div>
     <div className="process_f for_tablet_mobile_min">
         <AnimatedBlock><a className = "inv_href" href = "https://boldfund.io" target = "_blank"></a><img src={f_bold_mob} alt="" loading = "lazy"/></AnimatedBlock>
@@ -64,7 +64,7 @@ const ProccessChallenge = () => {
         <AnimatedBlock><img src={frame67} alt="" loading = "lazy"/></AnimatedBlock>
         <AnimatedBlock classN = "for_tablet_mobile o"><img src={newMin} alt="" loading = "lazy"/></AnimatedBlock>
     </div>
-    <AnimatedBlock classN = "for_tablet_mobile y"><img src={newMin4} alt="" loading = "lazy"/></AnimatedBlock>
+    <AnimatedBlock classN = "for_tablet_mobile y fifth_tablet"><img src={newMin4} alt="" loading = "lazy"/></AnimatedBlock>
 
     <div className="process_s">
         <AnimatedBlock classN = "for_tablet_mobile_min"><img src={frame68} alt="" loading = "lazy"/></AnimatedBlock>

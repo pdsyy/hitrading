@@ -1,4 +1,9 @@
 import React, {useRef} from 'react';
+import rect1 from "../images/sert1.png"
+import rect2 from "../images/sert2.png"
+import rect3 from "../images/06878a4b11ffe5de04144ffa2f70f90d.png"
+import rect4 from "../images/6be8d934b9c4c69acb87fef5d9fc5cb6.png"
+import rect5 from "../images/66af545be5f5a6e77a43fb0f8d3a04d1.png"
 import Slider from "react-slick";
 import left from "../images/strelLeft.png"
 import right from "../images/strelRight.png"

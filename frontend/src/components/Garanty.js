@@ -84,7 +84,7 @@ const Garanty = () => {
                     <div className = "f_s_gar_f">Швидкість та безпека</div>
                     <div className="f_s_gar_f_text">Алгоритм гарантовано пройде будь-який челендж із доступних нам в найкоротші терміни.</div>
                 </AnimatedBlock>
-                <AnimatedBlock classN = "f_garant_var_s t">
+                <AnimatedBlock classN = "f_garant_var_s t line_block">
                     <div className="number_of_garanty">02</div>
                     <div className="qw" style={{position:"relative"}}>
                         <img src = {Lines} alt = "" className = "f_s_gar" style={{width:"-webkit-fill-available"}}/>
