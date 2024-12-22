@@ -6,11 +6,12 @@ import lastN from "../images_challenge/lastN.png";
 import frame61 from "../images_challenge/t_bold_mob.png";
 import frame68 from "../images_challenge/Frame 427320440.svg";
 import frame69 from "../images_challenge/Frame 427320441.svg";
-import newMin from "../images_challenge/newMin.png";
+import newMin from "../images_challenge/four_img.png";
 import newMin1 from "../images_challenge/newMin1.png";
 import newMin2 from "../images_challenge/newMin2.png";
 import newMin3 from "../images_challenge/newMin3.png";
 import newMin4 from "../images_challenge/newMin4.png";
+import thcart from "../images_challenge/thcart.png";
 import proc1 from "../images_challenge/proc2.svg";
 import proc2 from "../images_challenge/newTwo.png";
 import proc3 from "../images_challenge/newThr.png";
@@ -55,7 +56,7 @@ const ProccessChallenge = () => {
     <div className="process_f for_tablet_mobile">
         <AnimatedBlock><a className = "inv_href" href = "https://boldfund.io" target = "_blank"></a><img src={f_bold} alt="" loading = "lazy"/></AnimatedBlock>
         <AnimatedBlock><img src={wfb1} alt="" loading = "lazy"/></AnimatedBlock>
-        <AnimatedBlock><img src={wfb2} alt="" loading = "lazy"/></AnimatedBlock>
+        <AnimatedBlock><img src={window.innerWidth > 1198 ? wfb2 : thcart} alt="" loading = "lazy"/></AnimatedBlock>
         <AnimatedBlock classN = "for_tablet_mobile o fourth_tablet"><img src={newMin} alt="" loading = "lazy"/></AnimatedBlock>
     </div>
     <div className="process_f for_tablet_mobile_min">

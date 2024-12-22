@@ -2631,9 +2631,6 @@ button {
     .faq_main {
         margin-top: 70px !important;
     }
-    .fourth_tablet img{
-        height: calc(90% - 3px);
-    }
     .fifth_tablet{
         margin-top: -35px;
     }
